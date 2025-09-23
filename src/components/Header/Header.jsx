@@ -1,4 +1,4 @@
-import uruguay_banner from '../../assets/uruguay_banner.png'
+import uruguay_banner from '../../assets/uruguay banner.png'
 import usa_banner from '../../assets/usa_banner-removebg.png'
 import './Header.css'
 
