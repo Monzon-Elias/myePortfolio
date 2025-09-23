@@ -1,0 +1,129 @@
+/* Header Styles */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(255, 255, 255, 0.8);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid #e2e8f0;
+  z-index: 50;
+  transition: all 0.3s ease;
+}
+
+.app.dark .header {
+  background: rgba(15, 23, 42, 0.8);
+  border-bottom: 1px solid #334155;
+}
+
+.nav-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem 1.5rem;
+}
+
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #1e293b;
+  transition: color 0.3s ease;
+}
+
+.app.dark .logo {
+  color: white;
+}
+
+.nav-links {
+  display: none;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-link {
+  color: #64748b;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #2563eb;
+}
+
+.app.dark .nav-link {
+  color: #cbd5e1;
+}
+
+.app.dark .nav-link:hover {
+  color: #60a5fa;
+}
+
+/* Language Toggle */
+.language-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.language-toggle:hover {
+  background: #f1f5f9;
+}
+
+.app.dark .language-toggle:hover {
+  background: #334155;
+}
+
+.flag-icon {
+  width: 24px;
+  height: 18px;
+  object-fit: cover;
+  border-radius: 2px;
+  transition: transform 0.2s ease;
+}
+
+.language-toggle:hover .flag-icon {
+  transform: scale(1.1);
+}
+
+/* Dark Mode Toggle */
+.dark-mode-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+  color: #64748b;
+  font-size: 1.25rem;
+}
+
+.dark-mode-toggle:hover {
+  background: #f1f5f9;
+}
+
+.app.dark .dark-mode-toggle {
+  color: #cbd5e1;
+}
+
+.app.dark .dark-mode-toggle:hover {
+  background: #334155;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  .nav-links {
+    display: flex;
+  }
+}
+

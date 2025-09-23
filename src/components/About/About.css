@@ -1,0 +1,93 @@
+/* About Section */
+.about-content {
+  display: grid;
+  gap: 3rem;
+  align-items: start;
+  grid-template-columns: 1fr;
+}
+
+.profile-photo {
+  width: 400px;
+  height: 560px;
+  border-radius: 20px;
+  object-fit: cover;
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.15);
+  transition: box-shadow 0.3s ease;
+  margin: 0 auto;
+  filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.1));
+}
+
+.app.dark .profile-photo {
+  box-shadow: 0 20px 40px -10px rgba(0, 0, 0, 0.4);
+  filter: drop-shadow(0 0 20px rgba(0, 0, 0, 0.2));
+}
+
+.about-text-container {
+  text-align: center;
+}
+
+.about-title {
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: #1e293b;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  transition: color 0.3s ease;
+}
+
+.app.dark .about-title {
+  color: white;
+}
+
+.about-text {
+  font-size: 1.125rem;
+  color: #64748b;
+  margin-bottom: 1.5rem;
+  text-align: left;
+  transition: color 0.3s ease;
+}
+
+.app.dark .about-text {
+  color: #cbd5e1;
+}
+
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+
+.skill-tag {
+  background: #dbeafe;
+  color: #1e40af;
+  padding: 0.5rem 1rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  font-weight: 500;
+}
+
+.skill-tag.green {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.skill-tag.yellow {
+  background: #fef3c7;
+  color: #92400e;
+}
+
+.skill-tag.purple {
+  background: #e9d5ff;
+  color: #6b21a8;
+}
+
+/* Responsive Design */
+@media (min-width: 768px) {
+  .about-content {
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+  }
+}
+
+
+

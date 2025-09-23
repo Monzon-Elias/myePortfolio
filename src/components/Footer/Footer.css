@@ -1,0 +1,25 @@
+/* Footer */
+.footer {
+  padding: 2rem 1.5rem;
+  border-top: 1px solid #e2e8f0;
+  transition: border-color 0.3s ease;
+}
+
+.app.dark .footer {
+  border-top: 1px solid #334155;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+  color: #64748b;
+  transition: color 0.3s ease;
+}
+
+.app.dark .footer-content {
+  color: #94a3b8;
+}
+
+
+
