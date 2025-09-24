@@ -8,7 +8,7 @@ function Header({ t, isEnglish, isDarkMode, toggleLanguage, toggleDarkMode }) {
       <nav className="nav-container">
         <div className="nav-content">
           <div className="logo">
-            Elios Portfolio
+            Elias Portfolio
           </div>
           <div className="nav-links">
             <a href="#about" className="nav-link">{t.nav.about}</a>

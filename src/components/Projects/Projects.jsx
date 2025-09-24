@@ -65,7 +65,7 @@ function Projects({ t }) {
                 <a href="https://elios-youtube.vercel.app/" target="_blank" rel="noopener noreferrer" className="project-link">
                   {t.projects.youtube.viewProject}
                 </a>
-                <a href="https://github.com/Monzon-Elias/Elios-Youtube" target="_blank" rel="noopener noreferrer" className="project-link secondary">
+                <a href="https://github.com/Monzon-Elias/Elias-Youtube" target="_blank" rel="noopener noreferrer" className="project-link secondary">
                   {t.projects.youtube.code}
                 </a>
               </div>

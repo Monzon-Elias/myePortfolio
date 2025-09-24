@@ -9,7 +9,7 @@ export const es = {
   },
   hero: {
     title: "Hola, soy",
-    name: "Elios",
+    name: "Elias",
     subtitle: "Desarrollador web apasionado creando experiencias digitales únicas",
     projectsBtn: "Ver mis proyectos",
     contactBtn: "Contactar"
@@ -126,6 +126,6 @@ export const es = {
     githubBtn: "GitHub"
   },
   footer: {
-    text: "© 2025 Elios Portfolio. Hecho con ❤️ y React + Vite"
+    text: "© 2025 Elias Portfolio. Hecho con ❤️ y React + Vite"
   }
 }

@@ -1,7 +1,7 @@
 {
-  "name": "Elios Portfolio",
-  "short_name": "Elios Portfolio",
-  "description": "Portfolio profesional de Elios - Desarrollador Web Full Stack",
+  "name": "Elias Portfolio",
+  "short_name": "Elias Portfolio",
+  "description": "Portfolio profesional de Elias - Desarrollador Web Full Stack",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#f8fafc",

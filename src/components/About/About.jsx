@@ -9,7 +9,7 @@ function About({ t }) {
           <div className="about-text-container">
             <img 
               src={profilePhoto} 
-              alt="Elios - Desarrollador Web" 
+              alt="Elias - Desarrollador Web" 
               className="profile-photo"
             />
           </div>
