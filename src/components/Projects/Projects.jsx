@@ -30,7 +30,7 @@ function Projects({ t }) {
                 </span>
               </div>
               <div className="project-links">
-                <a href="https://my-personnel.vercel.app/login" target="_blank" rel="noopener noreferrer" className="project-link">
+                <a href="https://mypersonnel.org" target="_blank" rel="noopener noreferrer" className="project-link">
                   {t.projects.personnel.viewProject}
                 </a>
                 <a href="https://github.com/Monzon-Elias/myPersonnel" target="_blank" rel="noopener noreferrer" className="project-link secondary">
@@ -163,6 +163,38 @@ function Projects({ t }) {
                 </a>
                 <a href="#" className="project-link secondary taxadvisor-code-link">
                   {t.projects.taxAdvisor.code}
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Budget App Project */}
+          <div className="project-card">
+            <div className="project-image budget"></div>
+            <div className="project-content">
+              <h3 className="project-title">
+                {t.projects.budgetApp.title}
+              </h3>
+              <p className="project-description">
+                {t.projects.budgetApp.description}
+              </p>
+              <div className="project-tech">
+                <span className="tech-tag">
+                  React
+                </span>
+                <span className="tech-tag green">
+                  Node.js
+                </span>
+                <span className="tech-tag yellow">
+                  Express
+                </span>
+              </div>
+              <div className="project-links">
+                <a href="https://budgetsite.netlify.app/" target="_blank" rel="noopener noreferrer" className="project-link">
+                  {t.projects.budgetApp.viewProject}
+                </a>
+                <a href="#" className="project-link secondary budget-code-link">
+                  {t.projects.budgetApp.code}
                 </a>
               </div>
             </div>

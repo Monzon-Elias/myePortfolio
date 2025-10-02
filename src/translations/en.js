@@ -116,6 +116,12 @@ export const en = {
       description: "Web platform for tax advisor network with advanced filtering system. I developed a complex filter that allows searching by location, specialization, experience, and availability, featuring autocomplete functionality and simultaneous multiple filters.",
       viewProject: "View project",
       code: "Code"
+    },
+    budgetApp: {
+      title: "Budget App",
+      description: "Personal budget management web application with user authentication and database. Allows recording income and expenses, maintaining detailed financial control, and visualizing cash flow. Renovated project with modern features.",
+      viewProject: "View project",
+      code: "Code"
     }
   },
   contact: {

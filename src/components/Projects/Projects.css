@@ -85,6 +85,16 @@
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
+.project-image.budget {
+  background: linear-gradient(135deg, #059669 0%, #047857 100%);
+}
+
+.project-image.budget::before {
+  content: "📊";
+  font-size: 4rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
 .project-content {
   padding: 1.5rem;
 }
@@ -172,6 +182,16 @@
 
 /* Hide code link for Beti Jai project */
 .betijai-code-link {
+  display: none;
+}
+
+/* Hide code link for Tax Advisor project */
+.taxadvisor-code-link {
+  display: none;
+}
+
+/* Hide code link for Budget App project */
+.budget-code-link {
   display: none;
 }
 

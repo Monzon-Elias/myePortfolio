@@ -116,6 +116,12 @@ export const es = {
       description: "Plataforma web para red de asesores fiscales con sistema de filtrado avanzado. Desarrollé un filtro complejo que permite buscar por ubicación, especialización, experiencia y disponibilidad, con funcionalidades de autocompletado y filtros múltiples simultáneos.",
       viewProject: "Ver proyecto",
       code: "Código"
+    },
+    budgetApp: {
+      title: "Budget App",
+      description: "Aplicación web de gestión de presupuesto personal con autenticación de usuarios y base de datos. Permite registrar ingresos y gastos, llevar un control financiero detallado y visualizar el flujo de dinero. Proyecto renovado con funcionalidades modernas.",
+      viewProject: "Ver proyecto",
+      code: "Código"
     }
   },
   contact: {
