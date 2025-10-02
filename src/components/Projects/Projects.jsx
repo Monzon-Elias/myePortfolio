@@ -193,7 +193,7 @@ function Projects({ t }) {
                 <a href="https://budgetsite.netlify.app/" target="_blank" rel="noopener noreferrer" className="project-link">
                   {t.projects.budgetApp.viewProject}
                 </a>
-                <a href="#" className="project-link secondary budget-code-link">
+                <a href="https://github.com/Monzon-Elias/BudgetApp" target="_blank" rel="noopener noreferrer" className="project-link secondary">
                   {t.projects.budgetApp.code}
                 </a>
               </div>

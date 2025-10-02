@@ -190,11 +190,6 @@
   display: none;
 }
 
-/* Hide code link for Budget App project */
-.budget-code-link {
-  display: none;
-}
-
 /* Responsive Design */
 @media (min-width: 768px) {
   .projects-grid {
