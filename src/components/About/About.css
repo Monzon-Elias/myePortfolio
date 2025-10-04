@@ -89,6 +89,14 @@
   }
 }
 
+@media (max-width: 468px) {
+  .profile-photo {
+    width: 300px;
+    height: 420px;
+  }
+}
+
+
 
 
 
