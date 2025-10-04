@@ -88,12 +88,6 @@
   color: #e9d5ff;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  .skills-grid {
-    flex-direction: column;
-  }
-}
 
 
 
