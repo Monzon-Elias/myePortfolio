@@ -21,7 +21,7 @@ function App() {
   const [isEnglish, setIsEnglish] = useState(() => {
     // Check if user has a saved language preference
     const saved = localStorage.getItem('language')
-    return saved ? JSON.parse(saved) : false // false = Spanish, true = English
+    return saved ? JSON.parse(saved) : true // false = Spanish, true = English
   })
 
   useEffect(() => {

@@ -9,7 +9,7 @@ function Education({ t }) {
         </h2>
         <div className="education-timeline">
           <div className="education-item">
-            <div className="education-date">2025</div>
+            <div className="education-date">{t.education.master.date}</div>
             <div className="education-content">
               <h3 className="education-title">{t.education.master.title}</h3>
               <h4 className="education-institution">{t.education.master.institution}</h4>
@@ -20,7 +20,7 @@ function Education({ t }) {
           </div>
 
           <div className="education-item">
-            <div className="education-date">2020</div>
+            <div className="education-date">{t.education.bachelor.date}</div>
             <div className="education-content">
               <h3 className="education-title">{t.education.bachelor.title}</h3>
               <h4 className="education-institution">{t.education.bachelor.institution}</h4>

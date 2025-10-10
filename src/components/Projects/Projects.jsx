@@ -199,6 +199,38 @@ function Projects({ t }) {
               </div>
             </div>
           </div>
+
+          {/* Netflix AI-Powered Project */}
+          <div className="project-card">
+            <div className="project-image netflix"></div>
+            <div className="project-content">
+              <h3 className="project-title">
+                {t.projects.netflix.title}
+              </h3>
+              <p className="project-description">
+                {t.projects.netflix.description}
+              </p>
+              <div className="project-tech">
+                <span className="tech-tag">
+                  React
+                </span>
+                <span className="tech-tag green">
+                  Firebase
+                </span>
+                <span className="tech-tag purple">
+                  AI Search
+                </span>
+              </div>
+              <div className="project-links">
+                <a href="https://my-netflix-ai-powered-app.web.app/" target="_blank" rel="noopener noreferrer" className="project-link">
+                  {t.projects.netflix.viewProject}
+                </a>
+                <a href="https://github.com/Monzon-Elias/Netflix-GPT" target="_blank" rel="noopener noreferrer" className="project-link secondary">
+                  {t.projects.netflix.code}
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

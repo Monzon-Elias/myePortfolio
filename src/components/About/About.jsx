@@ -26,6 +26,9 @@ function About({ t }) {
             <p className="about-text">
               {t.about.text3}
             </p>
+            <p className="about-text">
+              {t.about.text4}
+            </p>
             <div className="skills">
               <span className="skill-tag">
                 React

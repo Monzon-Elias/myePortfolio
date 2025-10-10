@@ -18,19 +18,22 @@ export const en = {
     title: "About Me",
     text1: "I'm a web developer passionate about creating innovative digital solutions. I specialize in modern technologies and always seek to learn new tools to improve my projects.",
     text2: "Each project is an opportunity for growth and to apply best development practices to create exceptional user experiences.",
-    text3: "My approach focuses on user-centered design, clean and maintainable code, optimized performance, and responsive design to create exceptional digital experiences."
+    text3: "My approach focuses on user-centered design, clean and maintainable code, optimized performance, and responsive design to create exceptional digital experiences.",
+    text4: "Thanks to my master's degree and my previous training as a teacher, a new horizon has opened up toward leadership, which I believe will be an inevitable part of my future path."
   },
   education: {
     title: "Education",
     master: {
       title: "Master of Science in Information Studies",
       institution: "Trine University – Arizona",
-      description: "Graduate program focused on information studies, data analysis, information systems management, and emerging technologies in the field of information."
+      description: "Graduate program focused on information studies, data analysis, information systems management, and emerging technologies in the field of information.",
+      date: "May 2025"
     },
     bachelor: {
       title: "Bachelor of Science in Web Design and Development",
       institution: "Brigham Young University – Idaho",
-      description: "Bachelor's degree specialized in web design and development, including frontend and backend programming, user interface design, web application development, and software development fundamentals."
+      description: "Bachelor's degree specialized in web design and development, including frontend and backend programming, user interface design, web application development, and software development fundamentals.",
+      date: "Dec 2020"
     }
   },
   experience: {
@@ -87,6 +90,12 @@ export const en = {
   },
   projects: {
     title: "My Most Recent Projects",
+    netflix: {
+      title: "Netflix AI-Powered",
+      description: "Netflix clone with AI-powered search and Firebase Authentication, fully deployed on Firebase. The interesting feature of this app is the AI-powered search engine, which allows you to search like 'uruguayan movies from the 90s'. Authentication is delegated to Firebase. Note: If your browser shows a security warning, it's due to the app name and Google security - the app doesn't require any personal information.",
+      viewProject: "View project",
+      code: "Code"
+    },
     personnel: {
       title: "My Personnel",
       description: "Private family social network built with React and Node.js. A secure platform for families to connect, share memories, and stay updated with each other's lives in a private and intimate environment.",

@@ -18,19 +18,22 @@ export const es = {
     title: "Sobre mí",
     text1: "Soy un desarrollador web con pasión por crear soluciones digitales innovadoras. Me especializo en tecnologías modernas y siempre busco aprender nuevas herramientas para mejorar mis proyectos.",
     text2: "Cada proyecto es una oportunidad de crecimiento y de aplicar las mejores prácticas de desarrollo para crear experiencias de usuario excepcionales.",
-    text3: "Mi enfoque se centra en el diseño centrado en el usuario, código limpio y mantenible, performance optimizada y responsive design para crear experiencias digitales excepcionales."
+    text3: "Mi enfoque se centra en el diseño centrado en el usuario, código limpio y mantenible, performance optimizada y responsive design para crear experiencias digitales excepcionales.",
+    text4: "Gracias al master que realicé y a mi previa formación como profesor, se me abrió un horizonte hacia el liderazgo que creo será inevitable en mi futuro."
   },
   education: {
     title: "Formación Académica",
     master: {
       title: "Master of Science in Information Studies",
       institution: "Trine University – Arizona",
-      description: "Programa de posgrado enfocado en estudios de información, análisis de datos, gestión de sistemas de información y tecnologías emergentes en el campo de la información."
+      description: "Programa de posgrado enfocado en estudios de información, análisis de datos, gestión de sistemas de información y tecnologías emergentes en el campo de la información.",
+      date: "Mayo 2025"
     },
     bachelor: {
       title: "Bachelor of Science in Web Design and Development",
       institution: "Brigham Young University – Idaho",
-      description: "Licenciatura especializada en diseño y desarrollo web, incluyendo programación frontend y backend, diseño de interfaces de usuario, desarrollo de aplicaciones web y fundamentos de desarrollo de software."
+      description: "Licenciatura especializada en diseño y desarrollo web, incluyendo programación frontend y backend, diseño de interfaces de usuario, desarrollo de aplicaciones web y fundamentos de desarrollo de software.",
+      date: "Dic 2020"
     }
   },
   experience: {
@@ -87,6 +90,12 @@ export const es = {
   },
   projects: {
     title: "Mis Proyectos Más Recientes",
+    netflix: {
+      title: "Netflix AI-Powered",
+      description: "Clon de Netflix con búsqueda potenciada por IA y autenticación con Firebase, completamente deployed en Firebase. Lo interesante de esta app es el buscador AI powered, en el cual puedes buscar de esta manera 'películas de uruguay de los años 90'. La autenticación está delegada a Firebase. Nota: Si el navegador dice sitio peligroso, es por el nombre de la app y Google security - la app no requiere ninguna información personal.",
+      viewProject: "Ver proyecto",
+      code: "Código"
+    },
     personnel: {
       title: "My Personnel",
       description: "Red social familiar privada desarrollada con React y Node.js. Una plataforma segura para que las familias se conecten, compartan recuerdos y se mantengan actualizadas sobre sus vidas en un ambiente privado e íntimo.",
