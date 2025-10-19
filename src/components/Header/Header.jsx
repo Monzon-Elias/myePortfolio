@@ -17,6 +17,8 @@ function Header({ t, isEnglish, isDarkMode, toggleLanguage, toggleDarkMode }) {
             <a href="#skills" className="nav-link">{t.nav.skills}</a>
             <a href="#projects" className="nav-link">{t.nav.projects}</a>
             <a href="#contact" className="nav-link">{t.nav.contact}</a>
+          </div>
+          <div className="nav-toggles">
             <button 
               onClick={toggleLanguage}
               className="language-toggle"

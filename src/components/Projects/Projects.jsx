@@ -222,7 +222,7 @@ function Projects({ t }) {
                 </span>
               </div>
               <div className="project-links">
-                <a href="https://my-netflix-ai-powered-app.web.app/" target="_blank" rel="noopener noreferrer" className="project-link">
+                <a href="https://netflix-gpt-omega-coral.vercel.app/" target="_blank" rel="noopener noreferrer" className="project-link">
                   {t.projects.netflix.viewProject}
                 </a>
                 <a href="https://github.com/Monzon-Elias/Netflix-GPT" target="_blank" rel="noopener noreferrer" className="project-link secondary">
