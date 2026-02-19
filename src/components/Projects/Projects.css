@@ -105,6 +105,26 @@
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
 }
 
+.project-image.hardhat {
+  background: linear-gradient(135deg, #f97316 0%, #ea580c 100%);
+}
+
+.project-image.hardhat::before {
+  content: "👷🏻";
+  font-size: 4rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.project-image.shelfology {
+  background: linear-gradient(135deg, #92400e 0%, #b45309 100%);
+}
+
+.project-image.shelfology::before {
+  content: "📐";
+  font-size: 4rem;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+}
+
 .project-content {
   padding: 1.5rem;
 }
@@ -197,6 +217,16 @@
 
 /* Hide code link for Tax Advisor project */
 .taxadvisor-code-link {
+  display: none;
+}
+
+/* Hide code link for Hard Hat Training project */
+.hardhat-code-link {
+  display: none;
+}
+
+/* Hide code link for Shelfology project */
+.shelfology-code-link {
   display: none;
 }
 

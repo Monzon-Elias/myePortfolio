@@ -131,6 +131,18 @@ export const en = {
       description: "Personal budget management web application with user authentication and database. Allows recording income and expenses, maintaining detailed financial control, and visualizing cash flow. Renovated project with modern features.",
       viewProject: "View project",
       code: "Code"
+    },
+    hardhat: {
+      title: "Hard Hat Training",
+      description: "I put many hours into maintaining this big Wordpress site: improving its performance, responsive design, making it more SEO-friendly, and updating products.",
+      viewProject: "View project",
+      code: "Code"
+    },
+    shelfology: {
+      title: "Shelfology",
+      description: "E-commerce site built with Bigcommerce. I put many hours into maintaining this great store: improving its performance, responsive design, and SEO. I worked on integrating the commercial side with CRM and shipping applications, and participated in the early stages of the migration from Bigcommerce to Shopify.",
+      viewProject: "View project",
+      code: "Code"
     }
   },
   contact: {

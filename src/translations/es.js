@@ -131,6 +131,18 @@ export const es = {
       description: "Aplicación web de gestión de presupuesto personal con autenticación de usuarios y base de datos. Permite registrar ingresos y gastos, llevar un control financiero detallado y visualizar el flujo de dinero. Proyecto renovado con funcionalidades modernas.",
       viewProject: "Ver proyecto",
       code: "Código"
+    },
+    hardhat: {
+      title: "Hard Hat Training",
+      description: "Metí muchas horas manteniendo esta enorme página hecha con Wordpress: mejorando su performance, diseño responsivo, haciéndola más SEO friendly y actualizando productos.",
+      viewProject: "Ver proyecto",
+      code: "Código"
+    },
+    shelfology: {
+      title: "Shelfology",
+      description: "Tienda e-commerce construida con Bigcommerce. Metí muchas horas manteniendo esta gran tienda: mejorando su performance, diseño responsivo y SEO. Trabajé en la integración de la parte comercial con aplicaciones CRM y de envíos, y participé en las primeras etapas de la migración de Bigcommerce a Shopify.",
+      viewProject: "Ver proyecto",
+      code: "Código"
     }
   },
   contact: {
