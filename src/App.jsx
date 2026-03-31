@@ -51,10 +51,10 @@ function App() {
       />
       <Hero t={t} />
       <About t={t} />
+      <Projects t={t} />
       <Experience t={t} />
       <Education t={t} />
       <Skills t={t} />
-      <Projects t={t} />
       <Contact t={t} />
       <Footer t={t} />
     </div>

@@ -40,9 +40,10 @@ export const es = {
     title: "Experiencia Profesional",
     dates: {
       jul2025Present: "Jul 2025 - Presente",
-      oct2024Present: "Oct 2024 - Presente", 
-      jan2024Jun2024: "Ene 2024 - Jun 2024",
-      jan2023Nov2023: "Ene 2023 - Nov 2023"
+      jul2024Present: "Jul 2024 - Presente",
+      dec2023Jun2024: "Dic 2023 - Jun 2024",
+      dec2022Nov2023: "Dic 2022 - Nov 2023",
+      nov2021Nov2022: "Nov 2021 - Nov 2022"
     },
     lauener: {
       title: "Software Developer Intern",
@@ -54,7 +55,7 @@ export const es = {
       ]
     },
     mnm: {
-      title: "Web Developer - Cofounder",
+      title: "Software Engineer",
       company: "M&M Web Agency",
       details: [
         "Liderazgo en creación y optimización de sitios web personalizados para empresas",
@@ -72,12 +73,20 @@ export const es = {
       ]
     },
     markKohler: {
-      title: "Web Developer",
+      title: "Full Stack Developer",
       company: "Mark J Kohler",
       details: [
         "Desarrollo Full-Stack usando NextJS, MongoDB, GraphQL y AWS Services",
         "Quality Assurance usando Jest",
         "Soporte a clientes con autenticación y progreso de cursos en LMS"
+      ]
+    },
+    safetyProvisions: {
+      title: "Especialista Web e IT",
+      company: "Safety Provisions Inc.",
+      details: [
+        "Diseño, mantenimiento, mejora y despliegue de sitios web profesionales con WordPress, JavaScript y CSS",
+        "Gestión del área de IT y soporte técnico de la empresa"
       ]
     }
   },
@@ -90,15 +99,9 @@ export const es = {
   },
   projects: {
     title: "Mis Proyectos Más Recientes",
-    netflix: {
-      title: "Netflix AI-Powered",
-      description: "Clon de Netflix con búsqueda potenciada por IA y autenticación con Firebase, completamente deployed en Firebase. Lo interesante de esta app es el buscador AI powered, en el cual puedes buscar de esta manera 'películas de uruguay de los años 90'. La autenticación está delegada a Firebase. Nota: Si el navegador dice sitio peligroso, es por el nombre de la app y Google security - la app no requiere ninguna información personal.",
-      viewProject: "Ver proyecto",
-      code: "Código"
-    },
     personnel: {
       title: "My Personnel",
-      description: "Red social familiar privada desarrollada con React y Node.js. Una plataforma segura para que las familias se conecten, compartan recuerdos y se mantengan actualizadas sobre sus vidas en un ambiente privado e íntimo.",
+      description: "Este proyecto nació porque mi hija de 11 años quería usar redes sociales y yo no quería eso en las grandes plataformas públicas. Así inventé myPersonnel.org: una red social para grupos cerrados e íntimos, desarrollada con React y Node.js. El diseño de la home la pensé para que le gustara a ella, sin perder privacidad ni seguridad.",
       viewProject: "Ver proyecto",
       code: "Código"
     },
@@ -108,15 +111,21 @@ export const es = {
       viewProject: "Ver proyecto",
       code: "Código"
     },
-    restaurant: {
-      title: "Restaurant App", 
-      description: "Aplicación de restaurante con menú interactivo, sistema de pedidos y gestión de productos desarrollada con React y Redux para manejo eficiente del estado.",
+    usuOnline: {
+      title: "USU Online Homepage Redesign",
+      description: "Hice este rediseño de la homepage de USU Online como tarea para una posición de trabajo.",
+      viewProject: "Ver proyecto",
+      code: "Código"
+    },
+    advsRedesign: {
+      title: "Rediseño homepage ADVS (USU)",
+      description: "Hice este rediseño de la página principal del departamento de Animal, Dairy & Veterinary Sciences para la USU en Logan. Me pidieron que actualizara su página web como una tarea.",
       viewProject: "Ver proyecto",
       code: "Código"
     },
     betijai: {
       title: "Beti Jai Catering",
-      description: "Sitio web corporativo para empresa de catering empresarial desarrollado con WordPress y Elementor Pro, incluyendo servicios de viandas, comedores en planta y catering con asistencia.",
+      description: "Sitio web corporativo para empresa de catering empresarial desarrollado con WordPress y Elementor Pro, incluyendo servicios de viandas, comedores en planta y catering con asistencia. Fue un placer trabajar con el dueño del negocio en cada etapa del desarrollo del sitio.",
       viewProject: "Ver proyecto", 
       code: "Código"
     },
@@ -134,7 +143,7 @@ export const es = {
     },
     hardhat: {
       title: "Hard Hat Training",
-      description: "Metí muchas horas manteniendo esta enorme página hecha con Wordpress: mejorando su performance, diseño responsivo, haciéndola más SEO friendly y actualizando productos.",
+      description: "Hard Hat Training es un e-commerce dedicado a vender cursos de capacitación en seguridad aprobados por OSHA, mayoritariamente para la industria de la construcción. Metí muchas horas manteniendo esta enorme página hecha con Wordpress: mejorando su performance, diseño responsivo, haciéndola más SEO friendly y actualizando productos.",
       viewProject: "Ver proyecto",
       code: "Código"
     },

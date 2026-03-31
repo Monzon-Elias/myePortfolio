@@ -10,7 +10,13 @@ function Projects({ t }) {
         <div className="projects-grid">
           {/* Shelfology Project */}
           <div className="project-card">
-            <div className="project-image shelfology"></div>
+            <div className="project-image shelfology">
+              <img
+                src="/shelfology-thumbnail.webp"
+                alt="Shelfology website preview"
+                className="project-image-photo"
+              />
+            </div>
             <div className="project-content">
               <h3 className="project-title">
                 {t.projects.shelfology.title}
@@ -42,7 +48,13 @@ function Projects({ t }) {
 
           {/* Hard Hat Training Project */}
           <div className="project-card">
-            <div className="project-image hardhat"></div>
+            <div className="project-image hardhat">
+              <img
+                src="/hht-thumbnail.webp"
+                alt="Hard Hat Training website preview"
+                className="project-image-photo"
+              />
+            </div>
             <div className="project-content">
               <h3 className="project-title">
                 {t.projects.hardhat.title}
@@ -74,7 +86,13 @@ function Projects({ t }) {
 
           {/* Tax Advisor Network Project */}
           <div className="project-card">
-            <div className="project-image taxadvisor"></div>
+            <div className="project-image taxadvisor">
+              <img
+                src="/TAN-thumbnail.webp"
+                alt="Tax Advisor Network website preview"
+                className="project-image-photo"
+              />
+            </div>
             <div className="project-content">
               <h3 className="project-title">
                 {t.projects.taxAdvisor.title}
@@ -106,7 +124,13 @@ function Projects({ t }) {
 
           {/* Beti Jai Catering Project */}
           <div className="project-card">
-            <div className="project-image betijai"></div>
+            <div className="project-image betijai">
+              <img
+                src="/betihai-thumbnail.webp"
+                alt="Beti Jai Catering website preview"
+                className="project-image-photo"
+              />
+            </div>
             <div className="project-content">
               <h3 className="project-title">
                 {t.projects.betijai.title}
@@ -138,7 +162,13 @@ function Projects({ t }) {
 
           {/* My Personnel Project */}
           <div className="project-card">
-            <div className="project-image personnel"></div>
+            <div className="project-image personnel">
+              <img
+                src="/myPersonnel-thumbnail.webp"
+                alt="My Personnel website preview"
+                className="project-image-photo"
+              />
+            </div>
             <div className="project-content">
               <h3 className="project-title">
                 {t.projects.personnel.title}
@@ -170,7 +200,13 @@ function Projects({ t }) {
 
           {/* YouTube Clone Project */}
           <div className="project-card">
-            <div className="project-image youtube"></div>
+            <div className="project-image youtube">
+              <img
+                src="/youtube-clone-thumbnail.webp"
+                alt="YouTube Clone app preview"
+                className="project-image-photo"
+              />
+            </div>
             <div className="project-content">
               <h3 className="project-title">
                 {t.projects.youtube.title}
@@ -200,33 +236,77 @@ function Projects({ t }) {
             </div>
           </div>
 
-          {/* Restaurant App Project */}
+          {/* USU Online — Homepage Redesign */}
           <div className="project-card">
-            <div className="project-image restaurant"></div>
+            <div className="project-image usu-online">
+              <img
+                src="/usu-homepage-thumbnail.webp"
+                alt="USU Online website preview"
+                className="project-image-photo"
+              />
+            </div>
             <div className="project-content">
               <h3 className="project-title">
-                {t.projects.restaurant.title}
+                {t.projects.usuOnline.title}
               </h3>
               <p className="project-description">
-                {t.projects.restaurant.description}
+                {t.projects.usuOnline.description}
               </p>
               <div className="project-tech">
                 <span className="tech-tag">
-                  React
+                  HTML
                 </span>
                 <span className="tech-tag green">
-                  Vite
+                  CSS
                 </span>
-                <span className="tech-tag purple">
+                <span className="tech-tag yellow">
                   JavaScript
                 </span>
               </div>
               <div className="project-links">
-                <a href="https://react-restaurant-delta.vercel.app/" target="_blank" rel="noopener noreferrer" className="project-link">
-                  {t.projects.restaurant.viewProject}
+                <a href="https://monzon-elias.github.io/USU-Online-Web-Manager-Task/" target="_blank" rel="noopener noreferrer" className="project-link">
+                  {t.projects.usuOnline.viewProject}
                 </a>
-                <a href="https://github.com/Monzon-Elias/ReactRestaurant" target="_blank" rel="noopener noreferrer" className="project-link secondary">
-                  {t.projects.restaurant.code}
+                <a href="https://github.com/Monzon-Elias/USU-Online-Web-Manager-Task" target="_blank" rel="noopener noreferrer" className="project-link secondary">
+                  {t.projects.usuOnline.code}
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* USU ADVS — Homepage redesign */}
+          <div className="project-card">
+            <div className="project-image advs-usu">
+              <img
+                src="/veterinary-usu-thumbnail.webp"
+                alt="USU Animal, Dairy & Veterinary Sciences website preview"
+                className="project-image-photo"
+              />
+            </div>
+            <div className="project-content">
+              <h3 className="project-title">
+                {t.projects.advsRedesign.title}
+              </h3>
+              <p className="project-description">
+                {t.projects.advsRedesign.description}
+              </p>
+              <div className="project-tech">
+                <span className="tech-tag">
+                  HTML
+                </span>
+                <span className="tech-tag green">
+                  CSS
+                </span>
+                <span className="tech-tag yellow">
+                  JavaScript
+                </span>
+              </div>
+              <div className="project-links">
+                <a href="https://monzon-elias.github.io/Animal-Dairy-and-Veterinary-Sciences/" target="_blank" rel="noopener noreferrer" className="project-link">
+                  {t.projects.advsRedesign.viewProject}
+                </a>
+                <a href="https://github.com/Monzon-Elias/Animal-Dairy-and-Veterinary-Sciences" target="_blank" rel="noopener noreferrer" className="project-link secondary">
+                  {t.projects.advsRedesign.code}
                 </a>
               </div>
             </div>
@@ -234,7 +314,13 @@ function Projects({ t }) {
 
           {/* Budget App Project */}
           <div className="project-card">
-            <div className="project-image budget"></div>
+            <div className="project-image budget">
+              <img
+                src="/budget-app-thumbnail.webp"
+                alt="Budget App website preview"
+                className="project-image-photo"
+              />
+            </div>
             <div className="project-content">
               <h3 className="project-title">
                 {t.projects.budgetApp.title}
@@ -259,38 +345,6 @@ function Projects({ t }) {
                 </a>
                 <a href="https://github.com/Monzon-Elias/BudgetApp" target="_blank" rel="noopener noreferrer" className="project-link secondary">
                   {t.projects.budgetApp.code}
-                </a>
-              </div>
-            </div>
-          </div>
-
-          {/* Netflix AI-Powered Project */}
-          <div className="project-card">
-            <div className="project-image netflix"></div>
-            <div className="project-content">
-              <h3 className="project-title">
-                {t.projects.netflix.title}
-              </h3>
-              <p className="project-description">
-                {t.projects.netflix.description}
-              </p>
-              <div className="project-tech">
-                <span className="tech-tag">
-                  React
-                </span>
-                <span className="tech-tag green">
-                  Firebase
-                </span>
-                <span className="tech-tag purple">
-                  AI Search
-                </span>
-              </div>
-              <div className="project-links">
-                <a href="https://netflix-gpt-omega-coral.vercel.app/" target="_blank" rel="noopener noreferrer" className="project-link">
-                  {t.projects.netflix.viewProject}
-                </a>
-                <a href="https://github.com/Monzon-Elias/Netflix-GPT" target="_blank" rel="noopener noreferrer" className="project-link secondary">
-                  {t.projects.netflix.code}
                 </a>
               </div>
             </div>

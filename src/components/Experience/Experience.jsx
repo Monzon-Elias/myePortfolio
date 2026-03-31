@@ -22,7 +22,7 @@ function Experience({ t }) {
           </div>
 
           <div className="experience-item">
-            <div className="experience-date">{t.experience.dates.oct2024Present}</div>
+            <div className="experience-date">{t.experience.dates.jul2024Present}</div>
             <div className="experience-content">
               <h3 className="experience-title">{t.experience.mnm.title}</h3>
               <h4 className="experience-company">{t.experience.mnm.company}</h4>
@@ -35,7 +35,7 @@ function Experience({ t }) {
           </div>
 
           <div className="experience-item">
-            <div className="experience-date">{t.experience.dates.jan2024Jun2024}</div>
+            <div className="experience-date">{t.experience.dates.dec2023Jun2024}</div>
             <div className="experience-content">
               <h3 className="experience-title">{t.experience.shelfology.title}</h3>
               <h4 className="experience-company">{t.experience.shelfology.company}</h4>
@@ -48,12 +48,25 @@ function Experience({ t }) {
           </div>
 
           <div className="experience-item">
-            <div className="experience-date">{t.experience.dates.jan2023Nov2023}</div>
+            <div className="experience-date">{t.experience.dates.dec2022Nov2023}</div>
             <div className="experience-content">
               <h3 className="experience-title">{t.experience.markKohler.title}</h3>
               <h4 className="experience-company">{t.experience.markKohler.company}</h4>
               <ul className="experience-details">
                 {t.experience.markKohler.details.map((detail, index) => (
+                  <li key={index}>{detail}</li>
+                ))}
+              </ul>
+            </div>
+          </div>
+
+          <div className="experience-item">
+            <div className="experience-date">{t.experience.dates.nov2021Nov2022}</div>
+            <div className="experience-content">
+              <h3 className="experience-title">{t.experience.safetyProvisions.title}</h3>
+              <h4 className="experience-company">{t.experience.safetyProvisions.company}</h4>
+              <ul className="experience-details">
+                {t.experience.safetyProvisions.details.map((detail, index) => (
                   <li key={index}>{detail}</li>
                 ))}
               </ul>
