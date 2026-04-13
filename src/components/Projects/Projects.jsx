@@ -102,13 +102,13 @@ function Projects({ t }) {
               </p>
               <div className="project-tech">
                 <span className="tech-tag">
-                  NextJS
+                  WordPress
                 </span>
                 <span className="tech-tag green">
-                  MongoDB
+                  Elementor Pro
                 </span>
                 <span className="tech-tag purple">
-                  GraphQL
+                  ACF
                 </span>
               </div>
               <div className="project-links">
