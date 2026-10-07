@@ -22,12 +22,12 @@ function Experience({ t }) {
           </div>
 
           <div className="experience-item">
-            <div className="experience-date">{t.experience.dates.jul2024Present}</div>
+            <div className="experience-date">{t.experience.dates.jul2024May2025}</div>
             <div className="experience-content">
-              <h3 className="experience-title">{t.experience.mnm.title}</h3>
-              <h4 className="experience-company">{t.experience.mnm.company}</h4>
+              <h3 className="experience-title">{t.experience.masters.title}</h3>
+              <h4 className="experience-company">{t.experience.masters.company}</h4>
               <ul className="experience-details">
-                {t.experience.mnm.details.map((detail, index) => (
+                {t.experience.masters.details.map((detail, index) => (
                   <li key={index}>{detail}</li>
                 ))}
               </ul>

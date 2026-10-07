@@ -40,7 +40,7 @@ export const en = {
     title: "Professional Experience",
     dates: {
       jul2025Present: "Jul 2025 - Present",
-      jul2024Present: "Jul 2024 - Present",
+      jul2024May2025: "Jul 2024 - May 2025",
       dec2023Jun2024: "Dec 2023 - Jun 2024",
       dec2022Nov2023: "Dec 2022 - Nov 2023",
       nov2021Nov2022: "Nov 2021 - Nov 2022"
@@ -54,13 +54,12 @@ export const en = {
         "Database structure and logic optimization with SQLite and MS SQL Server"
       ]
     },
-    mnm: {
-      title: "Software Engineer",
-      company: "M&M Web Agency",
+    masters: {
+      title: "Master of Science in Information Studies",
+      company: "Trine University – Arizona",
       details: [
-        "Leadership in creating and optimizing custom websites for businesses",
-        "Implementation of Agile methodologies for high-quality deliveries",
-        "Development with WordPress and modern technologies"
+        "Dedicated this period full-time to my master's in Information Studies",
+        "Focused on information systems, data analysis, and emerging technologies in the field of information"
       ]
     },
     shelfology: {
