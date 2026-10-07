@@ -9,7 +9,7 @@ function Experience({ t }) {
         </h2>
         <div className="experience-timeline">
           <div className="experience-item">
-            <div className="experience-date">{t.experience.dates.jul2025Present}</div>
+            <div className="experience-date">{t.experience.dates.jul2025May2026}</div>
             <div className="experience-content">
               <h3 className="experience-title">{t.experience.lauener.title}</h3>
               <h4 className="experience-company">{t.experience.lauener.company}</h4>
