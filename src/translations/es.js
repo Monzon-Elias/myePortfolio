@@ -39,7 +39,7 @@ export const es = {
   experience: {
     title: "Experiencia Profesional",
     dates: {
-      jul2025Present: "Jul 2025 - Presente",
+      jul2025May2026: "Jul 2025 - Mayo 2026",
       jul2024May2025: "Jul 2024 - Mayo 2025",
       dec2023Jun2024: "Dic 2023 - Jun 2024",
       dec2022Nov2023: "Dic 2022 - Nov 2023",
